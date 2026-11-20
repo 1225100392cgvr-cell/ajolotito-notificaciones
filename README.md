@@ -122,6 +122,16 @@ No pide permiso al arrancar, lo pide en contexto, la panza llena avisa con cari√
 ## App corriendo en el emulador
 
 <!-- APP_INICIO -->
+Capturas tomadas en el emulador de Android con `flutter drive` (prueba de integraci&oacute;n `integration_test/capturas_test.dart`, que recorre la app y toma una foto de cada pantalla).
+
+**La app abierta en el emulador**
+
+<img src="capturas/app/00_emulador.png" width="380">
+
+**La prueba de integraci&oacute;n ejecutada desde el cmd**
+
+![Prueba de integraci&oacute;n en el cmd](capturas/app/prueba_integracion_cmd.png)
+
 <!-- APP_FIN -->
 
 ---
