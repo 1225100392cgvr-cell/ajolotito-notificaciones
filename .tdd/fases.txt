@@ -1,0 +1,7 @@
+1|test/mascota_test.dart|lib/dominio/mascota.dart
+2|test/politica_payload_test.dart|lib/dominio/politica.dart;lib/dominio/payload.dart
+3|test/planificador_test.dart|lib/dominio/planificador.dart
+4|test/permiso_test.dart|lib/dominio/gestor_permiso.dart;lib/dominio/almacen.dart
+5|test/servicio_test.dart|lib/dominio/servicio.dart
+6|test/vm_test.dart|lib/presentacion/ajolote_vm.dart
+7|*|
