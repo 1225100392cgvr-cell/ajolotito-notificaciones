@@ -128,6 +128,11 @@ Capturas tomadas en el emulador de Android con `flutter drive` (prueba de integr
 
 <img src="capturas/app/00_emulador.png" width="380">
 
+| | | |
+|:-:|:-:|:-:|
+| <img src="capturas/app/01_ajolote_en_la_app.png" width="230"><br>Ajolote en la app | <img src="capturas/app/02_dar_de_comer.png" width="230"><br>Dar de comer | <img src="capturas/app/03_explicacion_antes_del_permiso.png" width="230"><br>Explicacion antes del permiso |
+| <img src="capturas/app/04_ajustes_de_avisos.png" width="230"><br>Ajustes de avisos |   |   |
+
 **La prueba de integraci&oacute;n ejecutada desde el cmd**
 
 ![Prueba de integraci&oacute;n en el cmd](capturas/app/prueba_integracion_cmd.png)
