@@ -36,6 +36,7 @@ void main() {
   }
 
   testWidgets('la app real: pantalla, panza llena, explicación del permiso y ajustes', (tester) async {
+    convertida = false; // cada prueba vuelve a convertir la superficie (el binding la revierte al terminar)
     app.main();
     for (var i = 0; i < 40 && find.text('Dar de comer').evaluate().isEmpty; i++) {
       await tester.pump(const Duration(milliseconds: 500));
@@ -57,6 +58,7 @@ void main() {
   });
 
   testWidgets('estados del ajolote con reloj simulado y avisos programados', (tester) async {
+    convertida = false;
     final puerto = PuertoFalso()..activas = true;
     final reloj = RelojFalso(DateTime(2026, 11, 12, 10));
     final almacen = AlmacenMemoria();
